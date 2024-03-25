@@ -5,11 +5,10 @@ export const useUserStore = create(
   persist(
     (set, get) => ({
       userData: {
-        firstName: "",
-        lastName: "",
-        email: "",
-        birthDate: new Date(),
-        hashedPassword: "",
+        firstName: "Evgeny",
+        lastName: "Evseev",
+        email: "example@mail.com",
+        hashedPassword: "SAHDnjldfsbuwe",
       },
       setUserData: (newData) =>
         set(() => ({ userData: { ...get().userData, ...newData } })),
