@@ -11,6 +11,10 @@
 - zustand
 - tailwindcss (чуть-чуть)
 
+## Демо
+
+**[cp-hse-24-exam-react.vercel.app](https://cp-hse-24-exam-react.vercel.app)**
+
 ## Скриншоты
 
 ![preview.png](images/preview.png)
